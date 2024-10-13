@@ -16,5 +16,5 @@ jobs:
       - name: Generate Contribution Snake
         uses: Platane/snk@v2
         with:
-          github_user: 'TerukiIIM'
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_user_name: 'TerukiIIM'
+          github_token: ${{ secrets.GITHUB_TOKEN }} 
